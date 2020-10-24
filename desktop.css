@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4 {
+    font-family: 'Fondamento';
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 8rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding: 1rem;
+}
+
+/* REUSABLE CLASSES */
+
+.flex {
+    display: flex;
+}
+.vertical {
+    flex-direction: column;
+}
+.center {
+    align-items: center;
+    justify-content: center;
+}
+.space-between {
+    justify-content: space-between;
+}
+.space-around {
+    justify-content: space-around;
+}
+.border-bottom {
+    border-bottom: 0.1rem solid lightgrey;
+}
+
+/* SPECIFIC ELEMENT CLASSES */
+
+.logo-top {
+    margin-top: 1rem;
+    width: 100%;
+}
+.menu {
+    width: 100%;
+}
+.hidden-icon {
+    visibility: hidden;
+
+}
