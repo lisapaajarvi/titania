@@ -1,0 +1,12 @@
+@media only screen and (max-width: 600px) {
+
+.menu {
+    display: none;
+}
+.menu-icon-mobile {
+    visibility: unset;
+    margin-right: 1.5rem;
+    align-items: center;
+}
+
+}
