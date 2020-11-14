@@ -63,7 +63,7 @@ li {
 .hamburger-menu-icon {
     visibility: hidden;
 }
-mobile-menu {
+.mobile-menu {
     position: fixed;
     top: 0rem;
     right: -20rem;

@@ -10,4 +10,6 @@ function addEventListeners() {
 }
 function openHamburgerMenu() {
     let menuMobile = document.getElementById("menu-mobile");
+    menuMobile.style.right = 0;
+    window.onclick = menuMobile.style.right
   }
