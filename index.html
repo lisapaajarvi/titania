@@ -8,84 +8,80 @@
     <link rel="stylesheet" href="tablet.css">
     <link rel="stylesheet" href="mobile.css">
     <link href="https://fonts.googleapis.com/css2?family=Fondamento&family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a20cba948b.js" crossorigin="anonymous"></script>
     <script src="./slideshow.js"></script>
     <script src="./main.js"></script>
 </head>
 <body>
     <div class="mobile-menu" id="mobile-menu">
-        <ul class="flex column">
+        <ul class="flex vertical space-between">
             <li>
-                <h4>om oss</h4>     
+                <h4>hem</h4>     
             </li>
             <li>
-                <h4>repertoar</h4> 
+                <h4>om oss</h4> 
+            </li>
+            <li>
+                <h4>boka</h4>
             </li>
             <li>
                 <h4>lyssna</h4>
-            </li>
-            <li>
-                <h4>framträdanden</h4>
-            </li>
-            <li>
-                <h4>blogg</h4>
-            </li>
-            <li>
-                <h4>lucia och jul</h4>
             </li>
             <li>
                 <h4>kontakt</h4>
             </li>
         </ul>
     </div>
-    <header class="flex vertical center">
-        <div class="logo-top flex space-between">
-            <i class="fas fa-bars fa-2x hidden-icon"></i>
+    <div class="grid-container">
+        <header class="flex space-around">
+            <i class="fas fa-bars fa-4x hidden-icon"></i>
             <h1>titania</h1>
-            <i class="fas fa-bars fa-2x hamburger-menu-icon" id="hamburger-menu-icon"></i>
-        </div>
-        <div class="menu center flex space-around border-bottom">
-            <i class="hidden-icon fab fa-instagram-square fa-2x"></i>
-            <nav>
-                <ul class="flex space-between">
-                    <li>
-                        <h4>om oss</h4>     
-                    </li>
-                    <li>
-                        <h4>repertoar</h4> 
-                    </li>
-                    <li>
-                        <h4>lyssna</h4>
-                    </li>
-                    <li>
-                        <h4>framträdanden</h4>
-                    </li>
-                    <li>
-                        <h4>blogg</h4>
-                    </li>
-                    <li>
-                        <h4>lucia och jul</h4>
-                    </li>
-                    <li>
-                        <h4>kontakt</h4>
-                    </li>
-                </ul>
-            </nav>
-            <i class="instagram fab fa-instagram-square fa-2x"></i>
-        </div>
+ 
+            <div class="media-icons">
+                <i class="fab fa-instagram-square fa-4x"></i>
+                <i class="fab fa-youtube-square fa-4x"></i>
+                <i class="fab fa-spotify fa-4x"></i>
 
-    </header>
-    <aside>
+            </div>
 
-    </aside>
-    <main>
-        <div class="slideshow-container">
-            
-        </div>
-    </main>
-    <footer>
 
-    </footer>
+        </header>
+        <aside class="flex vertical center">
+            <ul class="sidebar-menu flex vertical align-center space-between">
+                <li>
+                    <h4>hem</h4>     
+                </li>
+                <li>
+                    <h4>om oss</h4> 
+                </li>
+                <li>
+                    <h4>boka</h4>
+                </li>
+                <li>
+                    <h4>lyssna</h4>
+                </li>
+                <li>
+                    <h4>kontakt</h4>
+                </li>
+            </ul>
+        </aside>
+        <main class="flex center">
+            <div class="slideshow-container">
+                <img src="./assets/titania1.jpg" alt="titania in lucia gowns" class="show">
+                <img src="./assets/titania2.jpg" alt="">
+                <img src="./assets/titania3.jpg" alt="">
+                <img src="./assets/titania4.jpg" alt="">
+                <img src="./assets/titania5.jpg" alt="">
+                <img src="./assets/titania6.jpg" alt="">
+                <img src="./assets/titania7.jpg" alt="">
+                <img src="./assets/titania8.jpg" alt="">
+                <img src="./assets/titania9.jpg" alt="">
+                <img src="./assets/titania10.jpg" alt="">
+            </div>
+        </main>
+        <footer>
+    
+        </footer>
+    </div>
 </body>
 </html>
