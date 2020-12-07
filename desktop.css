@@ -11,7 +11,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 7rem;
 }
 
 h4 {
@@ -22,7 +22,7 @@ header {
     grid-area: header;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 8rem;
     right: 0;
     height: 8rem;
     align-items: center;
@@ -41,9 +41,9 @@ li {
     display: grid;
     padding: 1rem;
     height: 100%;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 8rem 1fr;
     grid-template-rows: 8rem auto;
-    grid-template-areas: "header header"
+    grid-template-areas: "aside header"
     "aside main"
     "footer footer";
 }
@@ -51,6 +51,8 @@ li {
 aside {
     grid-area: aside;
     display: flex;
+    width: 8rem;
+    position: fixed;
 }
 
 .sidebar-menu {
@@ -114,7 +116,7 @@ img {
     width: 100%;
 }
 .hidden-icon {
-    visibility: hidden;
+    display: none;
 }
 .hamburger-menu-icon {
     display: none;
